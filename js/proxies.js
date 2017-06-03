@@ -11,7 +11,7 @@ function processOrder(order) {
 }
 
 
-Array.prototype.isExist = (item) => {
+Array.prototype.isExist = function (item) {
     let status = false;
 
     if (item) {

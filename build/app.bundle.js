@@ -1291,12 +1291,12 @@ Array.prototype.isExist = function (item) {
     var status = false;
 
     if (item) {
-        undefined.forEach(function (index) {
-            if (index === item) {
+        for (var index in this) {
+            if (this[index] === item) {
                 status = true;
-                return;
+                break;
             }
-        });
+        }
     }
     return status;
 };
