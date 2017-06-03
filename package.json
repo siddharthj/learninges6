@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack":"webpack",
-    "serve":"node_modules\\.bin\\http-server -p 9090"
+    "webpack": "webpack",
+    "serve": "node_modules\\.bin\\http-server -p 9090"
   },
   "keywords": [],
   "author": "",
